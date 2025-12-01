@@ -36,6 +36,7 @@ THIRD_PARTY_APPS = [
 # ✅ Добавляй сюда приложения ПОСЛЕ их создания через startapp
 LOCAL_APPS = [
     "apps.accounts",
+    "apps.main",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
